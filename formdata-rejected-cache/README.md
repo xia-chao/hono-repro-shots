@@ -1,5 +1,7 @@
 # A failed `c.req.formData()` leaves the whole request body unreadable
 
+Issue: [honojs/hono#5383](https://github.com/honojs/hono/issues/5383)
+
 Affected: `honojs/hono` `4.13.7` (`main`, `edd138ee`) — reproduced on Node.js 26
 (`@hono/node-server`), Bun 1.4.3 and Deno 2.9.6.
 
