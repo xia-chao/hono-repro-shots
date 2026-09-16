@@ -1,6 +1,6 @@
 # A binary `+xml` response is corrupted by the AWS Lambda adapter
 
-Issue: [honojs/hono#5399](https://github.com/honojs/hono/issues/5399)
+Issue: [honojs/hono#5403](https://github.com/honojs/hono/issues/5403)
 
 Affected: `honojs/hono` `4.13.8` (`main`, `098e1191`), `bun` 1.4.3 on macOS.
 
