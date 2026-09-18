@@ -1,6 +1,6 @@
 # `createPool()` leaks the slot and never settles the caller's promise when a task rejects
 
-Issue: [honojs/hono#TBD](https://github.com/honojs/hono/issues/TBD)
+Issue: [honojs/hono#5413](https://github.com/honojs/hono/issues/5413)
 
 Affected: `honojs/hono` `4.13.8` (`main`, `098e1191`), `bun` 1.4.3 on macOS.
 

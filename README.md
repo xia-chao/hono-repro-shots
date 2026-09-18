@@ -12,6 +12,6 @@ Standalone repro screenshots for Hono issues.
   the same corruption in the Lambda@Edge adapter, whose own copy of `isContentTypeBinary`
   was never updated by [#4469](https://github.com/honojs/hono/pull/4469) — Office documents
   are affected too.
-- [`concurrent-pool-slot-leak`](concurrent-pool-slot-leak) — [honojs/hono#TBD](https://github.com/honojs/hono/issues/TBD):
+- [`concurrent-pool-slot-leak`](concurrent-pool-slot-leak) — [honojs/hono#5413](https://github.com/honojs/hono/issues/5413):
   `createPool()` never gives back the slot of a task that rejects, and the parked caller's
   promise never settles — `toSSG()` hangs on the first rejected route.
