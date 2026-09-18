@@ -1,6 +1,6 @@
 # A binary `+xml` response is corrupted by the Lambda@Edge adapter
 
-Issue: [honojs/hono#TBD](https://github.com/honojs/hono/issues/TBD)
+Issue: [honojs/hono#5411](https://github.com/honojs/hono/issues/5411)
 
 Affected: `honojs/hono` `4.13.8` (`main`, `098e1191`), `bun` 1.4.3 on macOS — the
 `lambda-edge` adapter (Lambda@Edge, `origin-response`).
